@@ -1096,3 +1096,53 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.07.30-17.06.33:611][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.07.30-17.06.33:819][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.07.30-17.06.34:029][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.30-17.06.34:245][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.30-17.06.34:527][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:528][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:528][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:529][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:529][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:530][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:530][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:531][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:531][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:532][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:532][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:533][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:533][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:533][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:534][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:534][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:534][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:535][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:535][  0]LogPakFile: Initializing PakPlatformFile
+[2025.07.30-17.06.34:536][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.07.30-17.06.34:846][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.07.30-17.06.34:854][  0]LogSlate: Took 0.000932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.07.30-17.06.34:856][  0]LogSlate: Took 0.000610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.07.30-17.06.36:588][  0]LogStall: Startup...
+[2025.07.30-17.06.36:592][  0]LogStall: Startup complete.
+[2025.07.30-17.06.36:611][  0]LogLoad: (Engine Initialization) Total time: 20.63 seconds
+[2025.07.30-17.06.37:038][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.07.30-17.06.37:038][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.07.30-17.06.37:092][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.07.30-17.06.37:155][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.30-17.06.37:161][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.07.30-17.06.37:201][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.07.30-17.06.37:203][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 42.662 ms
+[2025.07.30-17.06.37:472][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/' took 0.53s
+[2025.07.30-17.06.37:474][  1]LogAssetRegistry: AssetRegistryGather time 4.5068s: AssetDataDiscovery 0.0545s, AssetDataGather 4.3830s, StoreResults 0.0693s. Wall time 15.8580s.
+	NumCachedDirectories 0. NumUncachedDirectories 1587. NumCachedFiles 0. NumUncachedFiles 7587.
+	BackgroundTickInterruptions 20.
+[2025.07.30-17.06.37:510][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.07.30-17.06.37:522][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.07.30-17.06.37:523][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.07.30-17.06.37:917][  3]LogSourceControl: Uncontrolled asset discovery finished in 0.39316 seconds (Found 7563 uncontrolled assets)
+[2025.07.30-17.06.38:411][  3]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 8.704005
+[2025.07.30-17.06.38:414][  3]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.07.30-17.06.38:417][  3]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9.527217
+[2025.07.30-17.06.40:143][  9]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.07.30-17.06.40:845][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 11.596944
+[2025.07.30-17.06.40:849][ 10]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1327463752
+[2025.07.30-17.06.40:849][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11.596944, Update Interval: 358.049866
