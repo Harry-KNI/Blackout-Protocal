@@ -8016,3 +8016,380 @@ Sampler Limit: 32
 [2025.08.01-17.26.17:196][335]SourceControl:  create mode 100644 BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/LG/L32CNTGLNQTN4C06CDAZRB.uasset
 [2025.08.01-17.26.17:223][335]SourceControl: Commited [main 0c0469f] Added in AR-15 Model with Basic Texture for now.
 [2025.08.01-17.26.17:250][335]LogAutomationController: Ignoring very large delta of 24.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.01-17.28.18:920][ 76]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.08.01-17.28.18:929][ 76]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.08.01-17.28.18:942][ 77]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.08.01-17.28.27:237][219]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Pickup
+[2025.08.01-17.28.27:537][219]LogContentBrowser: End creating deferred item NewInputAction
+[2025.08.01-17.28.28:898][244]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Pickup.IA_Pickup
+[2025.08.01-17.29.03:834][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-17.29.03:903][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_Pickup] ([1] browsable assets)...
+[2025.08.01-17.29.03:903][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_Pickup]
+[2025.08.01-17.29.03:903][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_Pickup" FILE="../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/Input/Actions/IA_Pickup.uasset" SILENT=true
+[2025.08.01-17.29.03:905][753]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_Pickup
+[2025.08.01-17.29.03:905][753]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/IA_Pickup722EB661418148D3014DDB9AFA09ABE9.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/Input/Actions/IA_Pickup.uasset'
+[2025.08.01-17.29.04:178][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 343.111 ms (total: 13.1 sec)
+[2025.08.01-17.29.04:237][753]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-17.29.04:238][753]LogContentValidation: Enabled validators:
+[2025.08.01-17.29.04:238][753]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-17.29.04:238][753]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-17.29.04:238][753]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-17.29.04:238][753]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-17.29.04:238][753]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-17.29.04:238][753]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-17.29.04:239][753]AssetCheck: /Game/Input/Actions/IA_Pickup Validating asset
+[2025.08.01-17.29.05:237][763]LogSlate: Window 'IA_Pickup' being destroyed
+[2025.08.01-17.29.05:528][763]LogSlate: Window 'IA_Pickup' being destroyed
+[2025.08.01-17.29.10:160][836]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2025.08.01-17.29.24:204][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-17.29.24:271][ 11]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_Default] ([1] browsable assets)...
+[2025.08.01-17.29.24:271][ 11]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_Default]
+[2025.08.01-17.29.24:271][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/Input/IMC_Default.uasset" SILENT=true
+[2025.08.01-17.29.24:272][ 11]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2025.08.01-17.29.24:273][ 11]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/IMC_Default7E0A85A945A3B002E68AF9AC02B686B1.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/Input/IMC_Default.uasset'
+[2025.08.01-17.29.24:288][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.791 ms (total: 13.2 sec)
+[2025.08.01-17.29.24:352][ 11]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-17.29.24:352][ 11]LogContentValidation: Enabled validators:
+[2025.08.01-17.29.24:352][ 11]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-17.29.24:352][ 11]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-17.29.24:352][ 11]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-17.29.24:352][ 11]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-17.29.24:352][ 11]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-17.29.24:352][ 11]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-17.29.24:353][ 11]AssetCheck: /Game/Input/IMC_Default Validating asset
+[2025.08.01-17.29.31:256][115]LogSlate: Window 'IMC_Default' being destroyed
+[2025.08.01-17.29.31:442][115]LogSlate: Window 'IMC_Default' being destroyed
+[2025.08.01-17.29.34:127][146]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Jump.IA_Jump
+[2025.08.01-17.29.50:747][384]LogSlate: Window 'IA_Jump' being destroyed
+[2025.08.01-17.29.50:924][384]LogSlate: Window 'IA_Jump' being destroyed
+[2025.08.01-17.29.52:345][407]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Move.IA_Move
+[2025.08.01-17.29.59:109][507]LogSlate: Window 'IA_Move' being destroyed
+[2025.08.01-17.29.59:296][507]LogSlate: Window 'IA_Move' being destroyed
+[2025.08.01-17.30.00:038][521]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Jump.IA_Jump
+[2025.08.01-17.30.03:123][556]LogSlate: Window 'IA_Jump' being destroyed
+[2025.08.01-17.30.03:318][556]LogSlate: Window 'IA_Jump' being destroyed
+[2025.08.01-17.30.04:635][571]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Look.IA_Look
+[2025.08.01-17.30.07:289][609]LogSlate: Window 'IA_Look' being destroyed
+[2025.08.01-17.30.07:468][609]LogSlate: Window 'IA_Look' being destroyed
+[2025.08.01-17.30.09:886][648]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_MouseLook.IA_MouseLook
+[2025.08.01-17.30.12:191][673]LogSlate: Window 'IA_MouseLook' being destroyed
+[2025.08.01-17.30.12:210][673]LogSlate: Window 'IA_MouseLook' being destroyed
+[2025.08.01-17.30.12:916][687]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Pickup.IA_Pickup
+[2025.08.01-17.30.31:069][953]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-17.30.31:131][953]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_Pickup] ([1] browsable assets)...
+[2025.08.01-17.30.31:131][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_Pickup]
+[2025.08.01-17.30.31:131][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_Pickup" FILE="../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/Input/Actions/IA_Pickup.uasset" SILENT=true
+[2025.08.01-17.30.31:132][953]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_Pickup
+[2025.08.01-17.30.31:133][953]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/IA_PickupAE9DA8924786CCD64A5F9FADC81D8531.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/Input/Actions/IA_Pickup.uasset'
+[2025.08.01-17.30.31:146][953]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.602 ms (total: 13.3 sec)
+[2025.08.01-17.30.31:216][953]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-17.30.31:216][953]LogContentValidation: Enabled validators:
+[2025.08.01-17.30.31:216][953]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-17.30.31:216][953]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-17.30.31:216][953]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-17.30.31:216][953]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-17.30.31:216][953]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-17.30.31:216][953]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-17.30.31:216][953]AssetCheck: /Game/Input/Actions/IA_Pickup Validating asset
+[2025.08.01-17.30.32:160][970]LogSlate: Window 'IA_Pickup' being destroyed
+[2025.08.01-17.30.32:342][970]LogSlate: Window 'IA_Pickup' being destroyed
+[2025.08.01-17.31.00:186][381]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2025.08.01-17.31.00:215][381]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_56
+[2025.08.01-17.31.04:602][433]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Move.IA_Move
+[2025.08.01-17.32.06:985][422]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2844.586670
+[2025.08.01-17.32.07:297][428]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.01-17.32.07:297][428]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2844.833984, Update Interval: 327.473999
+[2025.08.01-17.33.46:428][996]LogSlate: Took 0.001407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.08.01-17.35.44:937][813]SourceControl: Error: warning: could not open directory 'BlackoutProtocol/Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/0/': No such file or directory
+[2025.08.01-17.35.45:002][814]SourceControl: Error: warning: could not open directory 'BlackoutProtocol/Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/0/': No such file or directory
+[2025.08.01-17.35.45:922][829]SourceControl: Error: warning: could not open directory 'BlackoutProtocol/Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/0/': No such file or directory
+[2025.08.01-17.37.06:129][943]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Weaponds/ar-15-style-rifle/source/ar15.ar15
+[2025.08.01-17.37.06:179][943]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_57
+[2025.08.01-17.37.40:039][270]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Weaponds/ar-15-style-rifle/source/ar15) ...
+[2025.08.01-17.37.57:916][447]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Weaponds/ar-15-style-rifle/source/ar15) ...
+[2025.08.01-17.38.05:748][525]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Weaponds/ar-15-style-rifle/source/ar15) ...
+[2025.08.01-17.38.08:598][553]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Weaponds/ar-15-style-rifle/source/ar15) ...
+[2025.08.01-17.38.12:685][593]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Weaponds/ar-15-style-rifle/source/ar15) ...
+[2025.08.01-17.38.16:445][630]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3214.049805
+[2025.08.01-17.38.16:808][635]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.01-17.38.16:808][635]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3214.316650, Update Interval: 315.875732
+[2025.08.01-17.38.22:199][687]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Weaponds/ar-15-style-rifle/source/ar15) ...
+[2025.08.01-17.38.43:980][905]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Weaponds/ar-15-style-rifle/source/ar15) ...
+[2025.08.01-17.39.19:780][262]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Weaponds/ar-15-style-rifle/source/ar15) ...
+[2025.08.01-17.40.46:099][133]SourceControl: Error: warning: could not open directory 'BlackoutProtocol/Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/0/': No such file or directory
+[2025.08.01-17.40.50:701][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-17.40.50:778][175]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Weaponds/ar-15-style-rifle/source/ar15] ([1] browsable assets)...
+[2025.08.01-17.40.50:801][175]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Weaponds/ar-15-style-rifle/source/ar15.ar15]
+[2025.08.01-17.40.50:801][175]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weaponds/ar-15-style-rifle/source/ar15]
+[2025.08.01-17.40.50:816][175]LogSavePackage: Moving output files for package: /Game/Weaponds/ar-15-style-rifle/source/ar15
+[2025.08.01-17.40.50:816][175]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/ar150FB034CB4F249071DC334C99D58C147B.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/Weaponds/ar-15-style-rifle/source/ar15.uasset'
+[2025.08.01-17.40.50:831][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.764 ms (total: 13.4 sec)
+[2025.08.01-17.40.50:912][175]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-17.40.50:912][175]LogContentValidation: Enabled validators:
+[2025.08.01-17.40.50:912][175]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-17.40.50:912][175]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-17.40.50:912][175]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-17.40.50:912][175]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-17.40.50:912][175]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-17.40.50:912][175]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-17.40.50:913][175]AssetCheck: /Game/Weaponds/ar-15-style-rifle/source/ar15 Validating asset
+[2025.08.01-17.40.51:699][185]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.40.51:701][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.40.52:411][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2025.08.01-17.41.04:702][379]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Weaponds/ar-15-style-rifle/source/ar15.ar15
+[2025.08.01-17.41.04:742][379]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_58
+[2025.08.01-17.41.11:235][436]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.41.11:235][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.41.11:457][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.08.01-17.42.15:278][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.08.01-17.42.29:808][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.08.01-17.42.32:782][620]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-17.42.32:845][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2025.08.01-17.42.32:981][620]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2025.08.01-17.42.32:981][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2025.08.01-17.42.33:046][620]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.08.01-17.42.33:046][620]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/BP_FirstPersonCharacter84E4A1D748F334C55D71B8ABC166B409.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.08.01-17.42.33:062][620]LogFileHelpers: InternalPromptForCheckoutAndSave took 279.815 ms (total: 13.7 sec)
+[2025.08.01-17.42.33:135][620]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.01-17.42.33:135][620]LogContentValidation: Enabled validators:
+[2025.08.01-17.42.33:135][620]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-17.42.33:135][620]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-17.42.33:135][620]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-17.42.33:135][620]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-17.42.33:135][620]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-17.42.33:135][620]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-17.42.33:135][620]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2025.08.01-17.42.33:773][632]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2025.08.01-17.42.33:937][632]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.42.33:938][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.42.34:031][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.08.01-17.42.53:979][908]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.08.01-17.42.55:854][908]LogSlate: Window 'Save Content' being destroyed
+[2025.08.01-17.42.59:798][908]SourceControl: Error: warning: could not open directory 'BlackoutProtocol/Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/0/': No such file or directory
+[2025.08.01-17.42.59:893][908]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.01-17.42.59:972][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/GZ/TTBKQTM7H2HDLWB3T16ZLY
+[2025.08.01-17.42.59:972][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/TTBKQTM7H2HDLWB3T16ZLYDDBFA7B4485273D1788E42BE063AC563.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/GZ/TTBKQTM7H2HDLWB3T16ZLY.uasset'
+[2025.08.01-17.42.59:974][908]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/0/FX/L85MCF184LZ2WTELY51J0M
+[2025.08.01-17.42.59:974][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/L85MCF184LZ2WTELY51J0MA70F018F40CADE4591E94AB5593E8673.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalObjects__/FirstPerson/Lvl_FirstPerson/0/FX/L85MCF184LZ2WTELY51J0M.uasset'
+[2025.08.01-17.42.59:980][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/EG/CIZR6W2NYH4Y5P8G67XOU0
+[2025.08.01-17.42.59:980][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/CIZR6W2NYH4Y5P8G67XOU05AE1075D4F40B644770F12BAECD49E82.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/EG/CIZR6W2NYH4Y5P8G67XOU0.uasset'
+[2025.08.01-17.42.59:983][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/AC/RFQ7INIHB1Q1JWY7DWYQ5Y
+[2025.08.01-17.42.59:983][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/RFQ7INIHB1Q1JWY7DWYQ5Y7CE760584F09D42BD30C269B121425A3.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/AC/RFQ7INIHB1Q1JWY7DWYQ5Y.uasset'
+[2025.08.01-17.42.59:987][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/LJ/OQX9YN9UJ9NNRX6ERJ3PPZ
+[2025.08.01-17.42.59:987][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/OQX9YN9UJ9NNRX6ERJ3PPZ75DBCD3744969FD3D41AA2BD141BD68E.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/LJ/OQX9YN9UJ9NNRX6ERJ3PPZ.uasset'
+[2025.08.01-17.42.59:989][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/OC/XS0DUOELE7HJY3F9XZSBNV
+[2025.08.01-17.42.59:989][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/XS0DUOELE7HJY3F9XZSBNV3FD8DC364219AAF7EB1ECAA12724BD5F.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/OC/XS0DUOELE7HJY3F9XZSBNV.uasset'
+[2025.08.01-17.42.59:991][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/W2/920TYXDM12T8GKK1E0M892
+[2025.08.01-17.42.59:991][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/920TYXDM12T8GKK1E0M892AFE485424701D62B5ED253A1756AD1F0.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/W2/920TYXDM12T8GKK1E0M892.uasset'
+[2025.08.01-17.42.59:993][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/I3/0VVXG3S0B4RN6QSHFSGKGX
+[2025.08.01-17.42.59:994][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/0VVXG3S0B4RN6QSHFSGKGX032CBDF84F0A198E24B519B616CA5CCC.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/I3/0VVXG3S0B4RN6QSHFSGKGX.uasset'
+[2025.08.01-17.42.59:996][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/IP/FTEAYZDQR9M2KDS0TEPHA0
+[2025.08.01-17.42.59:996][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/FTEAYZDQR9M2KDS0TEPHA0A92A50214A933D00D2F7F490C89361A9.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/IP/FTEAYZDQR9M2KDS0TEPHA0.uasset'
+[2025.08.01-17.42.59:999][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/U0/N7D7PHGDI2A4EOLD58TA92
+[2025.08.01-17.43.00:001][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/N7D7PHGDI2A4EOLD58TA921CA187A0499FB498C5C61AAFB2F67DEF.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/U0/N7D7PHGDI2A4EOLD58TA92.uasset'
+[2025.08.01-17.43.00:001][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/44/E30ITTGIQYU50RQY5Y9XCY
+[2025.08.01-17.43.00:001][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/E30ITTGIQYU50RQY5Y9XCY08FA09CF43BAC1EA12B1AEBFF80F4242.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/44/E30ITTGIQYU50RQY5Y9XCY.uasset'
+[2025.08.01-17.43.00:003][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/XL/U0BAKX7624EKY7QR8W4QDX
+[2025.08.01-17.43.00:003][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/U0BAKX7624EKY7QR8W4QDX118578064C24D766EB66EEB14958D803.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/XL/U0BAKX7624EKY7QR8W4QDX.uasset'
+[2025.08.01-17.43.00:005][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/N3/FQV2FW1I8D4Z06TF38UTCR
+[2025.08.01-17.43.00:005][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/FQV2FW1I8D4Z06TF38UTCR38E10A1C4FB3645F64CB03B635639484.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/N3/FQV2FW1I8D4Z06TF38UTCR.uasset'
+[2025.08.01-17.43.00:007][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/QB/9YXJRQGLS33G0BEH37USBX
+[2025.08.01-17.43.00:008][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/9YXJRQGLS33G0BEH37USBX22486E37413A422FA4B666B502580D74.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/QB/9YXJRQGLS33G0BEH37USBX.uasset'
+[2025.08.01-17.43.00:011][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/ER/GJUIXEEO8HUV9WZCSZR9GH
+[2025.08.01-17.43.00:011][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/GJUIXEEO8HUV9WZCSZR9GHA5B489E34FC10C167C9A5796FFFBAB80.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/ER/GJUIXEEO8HUV9WZCSZR9GH.uasset'
+[2025.08.01-17.43.00:014][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/HH/BIAWP2Z8HW32809JWMRLU3
+[2025.08.01-17.43.00:014][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/BIAWP2Z8HW32809JWMRLU3F2E168AF4D9105628EAE0D954474D8E4.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/HH/BIAWP2Z8HW32809JWMRLU3.uasset'
+[2025.08.01-17.43.00:016][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/8O/BVYOAIREBMOAK7193TKE2N
+[2025.08.01-17.43.00:017][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/BVYOAIREBMOAK7193TKE2N572AA35B40ED619E9DD5059B604B3F07.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/8O/BVYOAIREBMOAK7193TKE2N.uasset'
+[2025.08.01-17.43.00:019][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/J3/JQWZC33CXMXDX87CAIWJ94
+[2025.08.01-17.43.00:020][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/JQWZC33CXMXDX87CAIWJ945BC47F4743A6BF1C69EE99926CAB6A65.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/J3/JQWZC33CXMXDX87CAIWJ94.uasset'
+[2025.08.01-17.43.00:021][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/D2/66RZ3E9MEBJPV125V7SWQ6
+[2025.08.01-17.43.00:021][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/66RZ3E9MEBJPV125V7SWQ6C93D01524173B05B2C64AEBFF1287463.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/D2/66RZ3E9MEBJPV125V7SWQ6.uasset'
+[2025.08.01-17.43.00:024][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/0I/0PXPLZ76IWADZO9D6J4VWA
+[2025.08.01-17.43.00:024][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/0PXPLZ76IWADZO9D6J4VWA59DC71FD4E808285960D9BA62B3B9CAA.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/0I/0PXPLZ76IWADZO9D6J4VWA.uasset'
+[2025.08.01-17.43.00:026][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/8B/S2VB6OCHYGRYWAD0QGDM9H
+[2025.08.01-17.43.00:026][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/S2VB6OCHYGRYWAD0QGDM9HDAAC9E1D4A95C62F2B103E826114520A.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/8B/S2VB6OCHYGRYWAD0QGDM9H.uasset'
+[2025.08.01-17.43.00:028][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/9C/F5Z2JNQMT747Y7QES5KOP7
+[2025.08.01-17.43.00:029][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/F5Z2JNQMT747Y7QES5KOP73590A0C8419F790D677AADACB10231BE.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/9C/F5Z2JNQMT747Y7QES5KOP7.uasset'
+[2025.08.01-17.43.00:031][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/2T/XLTJQ7V46UNMQF707MQDQK
+[2025.08.01-17.43.00:031][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/XLTJQ7V46UNMQF707MQDQKD99113BB4331A14580D95F8E485F66A1.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/2T/XLTJQ7V46UNMQF707MQDQK.uasset'
+[2025.08.01-17.43.00:033][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/V1/DLNCFC4C5RQ8EDPCDYCKHQ
+[2025.08.01-17.43.00:034][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/DLNCFC4C5RQ8EDPCDYCKHQ070E314B4AF1C345C53813A79250F0CF.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/V1/DLNCFC4C5RQ8EDPCDYCKHQ.uasset'
+[2025.08.01-17.43.00:036][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/U8/LL0QNHFPYL403X5YW0FGG6
+[2025.08.01-17.43.00:036][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/LL0QNHFPYL403X5YW0FGG6B8756D45464FBFF47C8239B10F10DBBC.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/U8/LL0QNHFPYL403X5YW0FGG6.uasset'
+[2025.08.01-17.43.00:038][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/I5/5U3R0J6P3EIOET939AGA6V
+[2025.08.01-17.43.00:039][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/5U3R0J6P3EIOET939AGA6V7927BCF349191ABEC876899F651C6C71.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/I5/5U3R0J6P3EIOET939AGA6V.uasset'
+[2025.08.01-17.43.00:041][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/IH/6AC5KKMX2JQTMBRMPI2QXX
+[2025.08.01-17.43.00:041][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/6AC5KKMX2JQTMBRMPI2QXX888AAEC94AD2E93118FEC799A8F8DD6C.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/IH/6AC5KKMX2JQTMBRMPI2QXX.uasset'
+[2025.08.01-17.43.00:043][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/SP/2T0RTK13XAOOIQD0QTXDQ9
+[2025.08.01-17.43.00:043][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/2T0RTK13XAOOIQD0QTXDQ9FAAE1BBD4D4AC28011163E9C01C2E06B.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/SP/2T0RTK13XAOOIQD0QTXDQ9.uasset'
+[2025.08.01-17.43.00:045][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TO/58Y2HCG1B7M6VAJN1E38IS
+[2025.08.01-17.43.00:045][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/58Y2HCG1B7M6VAJN1E38IS1C79638A48BBAB871BC3BBA559FFCA7A.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TO/58Y2HCG1B7M6VAJN1E38IS.uasset'
+[2025.08.01-17.43.00:047][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/3X/YJ94LSV2G9NAIYZIK96QLE
+[2025.08.01-17.43.00:047][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/YJ94LSV2G9NAIYZIK96QLEE99CE5C642995624E48FB2AC460C2055.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/3X/YJ94LSV2G9NAIYZIK96QLE.uasset'
+[2025.08.01-17.43.00:049][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/1X/SN5R6LIXKDO3W51X1TVUTZ
+[2025.08.01-17.43.00:049][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/SN5R6LIXKDO3W51X1TVUTZA430467E4CB66CD977A9A39614034A19.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/1X/SN5R6LIXKDO3W51X1TVUTZ.uasset'
+[2025.08.01-17.43.00:052][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/WL/M7MJFQ0T76JWU6F1Z7YH8J
+[2025.08.01-17.43.00:052][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/M7MJFQ0T76JWU6F1Z7YH8J3E514FE34982701677062586097DB6EB.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/WL/M7MJFQ0T76JWU6F1Z7YH8J.uasset'
+[2025.08.01-17.43.00:054][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/GO/765U52T3ZSF8D2MPGLVRR0
+[2025.08.01-17.43.00:054][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/765U52T3ZSF8D2MPGLVRR0E227369449694C971B910E9CB83BCED8.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/GO/765U52T3ZSF8D2MPGLVRR0.uasset'
+[2025.08.01-17.43.00:056][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/V6/DING1S8EVR2AQW03U1ABGV
+[2025.08.01-17.43.00:056][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/DING1S8EVR2AQW03U1ABGVA5ACB81E409F5C29A406DAAAB88EA19A.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/V6/DING1S8EVR2AQW03U1ABGV.uasset'
+[2025.08.01-17.43.00:058][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/7M/FNN1ELJOC3KQT4JN0YDHT6
+[2025.08.01-17.43.00:059][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/FNN1ELJOC3KQT4JN0YDHT65DAE71AD48A85ECCFBCF23B890214BEF.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/7M/FNN1ELJOC3KQT4JN0YDHT6.uasset'
+[2025.08.01-17.43.00:061][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/TI/UOUH4EXJHIGJNF2D0Y7CPX
+[2025.08.01-17.43.00:062][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/UOUH4EXJHIGJNF2D0Y7CPXE88DC8B84421EC3BF1F39A9867C806AE.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/TI/UOUH4EXJHIGJNF2D0Y7CPX.uasset'
+[2025.08.01-17.43.00:064][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/56/I0F38RE5S8MZ8PNQ5GDDSS
+[2025.08.01-17.43.00:064][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/I0F38RE5S8MZ8PNQ5GDDSS006185DA4C5667A3D65769BE6E1FFC6D.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/56/I0F38RE5S8MZ8PNQ5GDDSS.uasset'
+[2025.08.01-17.43.00:066][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/LE/5ZDRK6QRB1CF1JSS3HJKPV
+[2025.08.01-17.43.00:066][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/5ZDRK6QRB1CF1JSS3HJKPV97AC37BD49E418CBD19F70A2BB1B01CD.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/LE/5ZDRK6QRB1CF1JSS3HJKPV.uasset'
+[2025.08.01-17.43.00:068][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/6I/29E05UQXOAGP6TCP5CN0BQ
+[2025.08.01-17.43.00:068][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/29E05UQXOAGP6TCP5CN0BQ42B474E343A7650233E32A947AB9EBAC.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/6I/29E05UQXOAGP6TCP5CN0BQ.uasset'
+[2025.08.01-17.43.00:070][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/TT/AN7EDCE3WNBXY7C6MLPGQH
+[2025.08.01-17.43.00:070][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/AN7EDCE3WNBXY7C6MLPGQH80C94DA34D078E77E65AC7B2F1C34F1C.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/TT/AN7EDCE3WNBXY7C6MLPGQH.uasset'
+[2025.08.01-17.43.00:072][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/QF/0MZRSMWGNM91UYLLVJ3D8E
+[2025.08.01-17.43.00:072][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/0MZRSMWGNM91UYLLVJ3D8EF5669B0C47BC5DAF3D9A2CA4A4996FB6.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/QF/0MZRSMWGNM91UYLLVJ3D8E.uasset'
+[2025.08.01-17.43.00:074][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/2N/XWEBNOYZ7JA5DZOPBGZ71S
+[2025.08.01-17.43.00:074][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/XWEBNOYZ7JA5DZOPBGZ71S03FCCB0C4DC855C6738E04B7C49CA30A.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/2N/XWEBNOYZ7JA5DZOPBGZ71S.uasset'
+[2025.08.01-17.43.00:076][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/P7/9DOH3BZKA2A8C7ZTDWILWC
+[2025.08.01-17.43.00:077][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/9DOH3BZKA2A8C7ZTDWILWC60014B98432BE65BE9F70FA15DDDFE1A.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/P7/9DOH3BZKA2A8C7ZTDWILWC.uasset'
+[2025.08.01-17.43.00:079][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/8V/Q896X99E5DMTT521YEXM9A
+[2025.08.01-17.43.00:079][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/Q896X99E5DMTT521YEXM9A6A628BB34569D72E45C743B0F1AA2893.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/8V/Q896X99E5DMTT521YEXM9A.uasset'
+[2025.08.01-17.43.00:082][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/R5/8FN93FIP5FEZUI0RECK61K
+[2025.08.01-17.43.00:082][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/8FN93FIP5FEZUI0RECK61KCEBABC1045FC4271876A00989AC5EF9C.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/R5/8FN93FIP5FEZUI0RECK61K.uasset'
+[2025.08.01-17.43.00:083][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/U9/AHG6736Q2Y3SGC1JQONLFJ
+[2025.08.01-17.43.00:084][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/AHG6736Q2Y3SGC1JQONLFJF5213A224F51149B833B6A864C429A5C.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/U9/AHG6736Q2Y3SGC1JQONLFJ.uasset'
+[2025.08.01-17.43.00:085][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/HV/3VH3D4CLM38OC4F8ICXDVQ
+[2025.08.01-17.43.00:086][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/3VH3D4CLM38OC4F8ICXDVQAF774258447A379869BD5EBBB3D87FD9.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/HV/3VH3D4CLM38OC4F8ICXDVQ.uasset'
+[2025.08.01-17.43.00:088][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/TG/2MDU2GF02TMAKTSII7ZI7V
+[2025.08.01-17.43.00:088][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/2MDU2GF02TMAKTSII7ZI7V249C76C44FEEDDFF158AA68E67D1E034.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/TG/2MDU2GF02TMAKTSII7ZI7V.uasset'
+[2025.08.01-17.43.00:089][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/6J/NUEDVP0K274K8FKJ6Y0WEX
+[2025.08.01-17.43.00:091][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/NUEDVP0K274K8FKJ6Y0WEX280B54044CE931C276381691CFF7A4BD.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/6J/NUEDVP0K274K8FKJ6Y0WEX.uasset'
+[2025.08.01-17.43.00:093][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/BN/PJBVMDVV9BICN8MLKJ849X
+[2025.08.01-17.43.00:093][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/PJBVMDVV9BICN8MLKJ849X25756AF94DF4308718309CA05BC8C64B.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/BN/PJBVMDVV9BICN8MLKJ849X.uasset'
+[2025.08.01-17.43.00:095][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/KL/17EY7JSE7TF01OWV9LBSC1
+[2025.08.01-17.43.00:095][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/17EY7JSE7TF01OWV9LBSC1A3A9ABA9419E27BF29C5ED9D3057923F.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/KL/17EY7JSE7TF01OWV9LBSC1.uasset'
+[2025.08.01-17.43.00:097][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/2H/HS4VI3UZJT1LNKM6HC7PL2
+[2025.08.01-17.43.00:097][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/HS4VI3UZJT1LNKM6HC7PL2C23BEA7446BD67EFF3A4609147FBFDD5.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/2H/HS4VI3UZJT1LNKM6HC7PL2.uasset'
+[2025.08.01-17.43.00:099][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/IJ/E7WQWO4MJ84GWAX8H4UR84
+[2025.08.01-17.43.00:099][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/E7WQWO4MJ84GWAX8H4UR840F504F854502BE5B391F05AA44FF1E7E.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/IJ/E7WQWO4MJ84GWAX8H4UR84.uasset'
+[2025.08.01-17.43.00:101][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/W0/RTEFXSATTAVCPYEQHKNEY1
+[2025.08.01-17.43.00:101][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/RTEFXSATTAVCPYEQHKNEY10750A40A41757352BE2E2EAEBDF631DD.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/W0/RTEFXSATTAVCPYEQHKNEY1.uasset'
+[2025.08.01-17.43.00:103][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/9S/AT66MUZW91DYUD6WM5FH0P
+[2025.08.01-17.43.00:103][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/AT66MUZW91DYUD6WM5FH0P6DDDFC274BCCC87F3EA1DDB6F2B6B786.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/9S/AT66MUZW91DYUD6WM5FH0P.uasset'
+[2025.08.01-17.43.00:105][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/3M/CN6DASGRPPAPEICARMETU3
+[2025.08.01-17.43.00:106][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/CN6DASGRPPAPEICARMETU365FCC66C47C7885EDBC40BBB19157AFA.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/3M/CN6DASGRPPAPEICARMETU3.uasset'
+[2025.08.01-17.43.00:108][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/NI/7Z9KFUHGDC33I0LYBUUYUQ
+[2025.08.01-17.43.00:108][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/7Z9KFUHGDC33I0LYBUUYUQBBD307F64468443383035F9CC81C3EC5.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/NI/7Z9KFUHGDC33I0LYBUUYUQ.uasset'
+[2025.08.01-17.43.00:111][908]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/NN/UPER9K07U6B78EE80PY058
+[2025.08.01-17.43.00:111][908]LogSavePackage: Moving '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Saved/UPER9K07U6B78EE80PY0580B16CB45495E8478142EFB884CED92B3.tmp' to '../../../../../../Users/harry/Documents/GitHub/Blackout-Protocal/BlackoutProtocol/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/NN/UPER9K07U6B78EE80PY058.uasset'
+[2025.08.01-17.43.00:343][908]LogFileHelpers: InternalPromptForCheckoutAndSave took 450.500 ms (total: 14.1 sec)
+[2025.08.01-17.43.00:377][908]LogStall: Shutdown...
+[2025.08.01-17.43.00:377][908]LogStall: Shutdown complete.
+[2025.08.01-17.43.00:404][908]LogSlate: Window 'BlackoutProtocol - Unreal Editor' being destroyed
+[2025.08.01-17.43.00:408][908]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2025.08.01-17.43.03:703][908]LogContentValidation: Display: Starting to validate 58 assets
+[2025.08.01-17.43.03:703][908]LogContentValidation: Enabled validators:
+[2025.08.01-17.43.03:703][908]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.01-17.43.03:703][908]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.01-17.43.03:703][908]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.01-17.43.03:703][908]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.01-17.43.03:703][908]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.01-17.43.03:703][908]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.01-17.43.03:704][908]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2025.08.01-17.43.03:709][908]LogAutomationController: Ignoring very large delta of 9.80 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.08.01-17.43.03:714][908]Cmd: QUIT_EDITOR
+[2025.08.01-17.43.03:715][909]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.08.01-17.43.03:751][909]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.08.01-17.43.03:757][909]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.08.01-17.43.03:758][909]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.08.01-17.43.03:769][909]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.03:774][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.03:775][909]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson
+[2025.08.01-17.43.03:855][909]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.08.01-17.43.03:861][909]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.08.01-17.43.03:875][909]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.08.01-17.43.03:995][909]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.03:995][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:002][909]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:002][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:009][909]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:009][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:018][909]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:018][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:027][909]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:028][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:037][909]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:038][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:046][909]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:047][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:056][909]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:056][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:065][909]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:065][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:074][909]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:074][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:089][909]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:089][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:096][909]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2025.08.01-17.43.04:096][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.01-17.43.04:126][909]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.08.01-17.43.04:129][909]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.08.01-17.43.04:145][909]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.08.01-17.43.04:761][909]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.08.01-17.43.04:761][909]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.08.01-17.43.04:761][909]LogAudio: Display: Audio Device unregistered from world 'Lvl_FirstPerson'.
+[2025.08.01-17.43.04:762][909]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.08.01-17.43.04:767][909]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.08.01-17.43.04:775][909]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.08.01-17.43.04:812][909]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.08.01-17.43.04:813][909]LogAudio: Display: Audio Device Manager Shutdown
+[2025.08.01-17.43.04:827][909]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.08.01-17.43.04:828][909]LogExit: Preparing to exit.
+[2025.08.01-17.43.05:223][909]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2025.08.01-17.43.05:328][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:331][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:338][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.05:340][909]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.08.01-17.43.06:285][909]LogEditorDataStorage: Deinitializing
+[2025.08.01-17.43.06:733][909]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.08.01-17.43.06:898][909]LogExit: Editor shut down
+[2025.08.01-17.43.06:918][909]LogExit: Transaction tracking system shut down
+[2025.08.01-17.43.08:119][909]LogExit: Object subsystem successfully closed.
+[2025.08.01-17.43.08:205][909]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.08.01-17.43.09:148][909]LogMemoryProfiler: Shutdown
+[2025.08.01-17.43.09:150][909]LogNetworkingProfiler: Shutdown
+[2025.08.01-17.43.09:150][909]LoadingProfiler: Shutdown
+[2025.08.01-17.43.09:151][909]LogTimingProfiler: Shutdown
+[2025.08.01-17.43.09:163][909]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.08.01-17.43.09:164][909]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.08.01-17.43.10:241][909]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.08.01-17.43.10:258][909]LogNFORDenoise: NFORDenoise function shutting down
+[2025.08.01-17.43.10:262][909]RenderDocPlugin: plugin has been unloaded.
+[2025.08.01-17.43.10:297][909]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.08.01-17.43.10:298][909]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDDFF0445-4C9A-3E11-4659-91A600A876C8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=68f1d0094d49fe158e0ee59756c4867c%7C90f5605b2acc4599868c4a61170de209%7Ccbcaceb7-08fd-47fc-9db7-180ab98c6063&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.08.01-17.43.11:443][909]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.08.01-17.43.11:482][909]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.08.01-17.43.11:482][909]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.08.01-17.43.11:486][909]LogPakFile: Destroying PakPlatformFile
+[2025.08.01-17.43.11:516][909]LogD3D12RHI: Intel Extensions Framework unloaded
+[2025.08.01-17.43.13:241][909]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.08.01-17.43.13:371][909]LogExit: Exiting.
+[2025.08.01-17.43.13:419][909]Log file closed, 08/01/25 18:43:13
